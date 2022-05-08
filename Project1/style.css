@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "NunitoSans";
-	src: url("/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/fonts/NunitoSans-Regular.ttf");
+	src: url("./fonts/NunitoSans-Regular.ttf");
 }
 
 @font-face {
 	font-family: "YesevaOne";
-	src: url("/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/fonts/YesevaOne-Regular.ttf");
+	src: url("./fonts/YesevaOne-Regular.ttf");
 }
 
 * {
@@ -175,7 +175,7 @@
 }
 
 .section1 {
-	background-image: url('/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/img/background.jpg');
+	background-image: url('./img/background.jpg');
 	padding-top: 192px;
 	position: relative;
 	padding-bottom: 0.1px;
@@ -252,7 +252,7 @@
 
 @media screen and (max-width:1300px) {
 	.section1 {
-		background-image: url('/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/img/background.jpg');
+		background-image: url('./img/background.jpg');
 		padding-top: 100px;
 		display: flex;
 		justify-content: center;
@@ -280,7 +280,7 @@
 
 @media screen and (max-width: 768px) {
 	.section1 {
-		background-image: url('/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/img/background.jpg');
+		background-image: url('./img/background.jpg');
 		padding-top: 80px;
 		display: flex;
 		justify-content: center;
@@ -323,7 +323,7 @@
 
 @media screen and (max-width:375px) {
 	.section1 {
-		background-image: url('/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/img/backgroung-mobile.jpg');
+		background-image: url('./img/backgroung-mobile.jpg');
 		justify-content: flex-start;
 	}
 }
@@ -709,7 +709,7 @@
 }
 
 .checkbox-input:checked+label::before {
-	background-image: url("/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/img/check-true.svg");
+	background-image: url("./img/check-true.svg");
 	border: 0;
 }
 
@@ -1116,7 +1116,7 @@
 }
 
 .request-plan {
-	background-image: url("/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/img/request-backgroung.jpg");
+	background-image: url("./img/request-backgroung.jpg");
 	background-repeat: no-repeat;
 	margin-top: -8px;
 	padding-right: 209px;
@@ -1237,12 +1237,12 @@
 }
 
 .checkbox-input-request:checked+label::before {
-	background-image: url("/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/img/check-true.svg");
+	background-image: url("./img/check-true.svg");
 	border: 0;
 }
 
 .design {
-	background-image: url("/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/img/design-background.jpg");
+	background-image: url("./img/design-background.jpg");
 	background-repeat: no-repeat;
 	position: relative;
 	margin-top: 212px;
@@ -1552,7 +1552,7 @@
 }
 
 .checkbox-input-question:checked+label::before {
-	background-image: url("/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/img/check-true.svg");
+	background-image: url("./img/check-true.svg");
 	border: 0;
 }
 
@@ -1670,7 +1670,7 @@
 
 .contacts {
 	position: relative;
-	background-image: url('/Users/elenasoshina/Desktop/SkillFactory/projects/Project1/img/background-contacts.jpg');
+	background-image: url('./img/background-contacts.jpg');
 	background-size: cover;
 }
 
