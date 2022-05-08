@@ -1792,6 +1792,6 @@
 	}
 
 	.contacts:after {
-		content: none;
+		content: none; /**/
 	}
 }
